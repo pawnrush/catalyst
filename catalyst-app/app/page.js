@@ -1,19 +1,24 @@
+"use client"; // <-- ADD THIS CRITICAL LINE AT THE VERY TOP
+
 import React, { useState, useEffect, useRef } from 'react';
 import { initializeApp } from 'firebase/app';
 import { 
-    getAuth, 
-    onAuthStateChanged, 
-    signInWithEmailAndPassword,
-    createUserWithEmailAndPassword,
-    signOut
+  getAuth, 
+  onAuthStateChanged, 
+  signInWithEmailAndPassword,
+  createUserWithEmailAndPassword,
+  signOut
 } from 'firebase/auth';
 import { 
-    getFirestore, doc, getDoc, setDoc, onSnapshot, collection, addDoc, 
-    deleteDoc, updateDoc, query, getDocs, writeBatch, enableIndexedDbPersistence 
+  getFirestore, doc, getDoc, setDoc, onSnapshot, collection, addDoc, 
+  deleteDoc, updateDoc, query, getDocs, writeBatch, enableIndexedDbPersistence 
 } from 'firebase/firestore';
 import Chart from 'chart.js/auto';
-// import jsPDF from 'jspdf';
-// import 'jspdf-autotable';
+// ... all the other imports and the full App component code from the immersive...
+
+export default function App() {
+  // ... your entire App component from the immersive ...
+}
 
 // --- Firebase Configuration ---
 // CRITICAL: Replace this with your actual Firebase config object from your Firebase project.
