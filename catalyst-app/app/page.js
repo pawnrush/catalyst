@@ -1,4 +1,4 @@
-import CatalystApp from './CatalystApp';
+import CatalystApp from './CatalystApp.js';
 
 export default function HomePage() {
   return (
