@@ -6,8 +6,8 @@ import {
     deleteDoc, updateDoc, query, getDocs, writeBatch, enableIndexedDbPersistence 
 } from 'firebase/firestore';
 import Chart from 'chart.js/auto';
-import jsPDF from 'jspdf';
-import autoTable from 'jspdf-autotable';
+// import jsPDF from 'jspdf';
+// import autoTable from 'jspdf-autotable';
 
 // --- Firebase Configuration ---
 // CRITICAL: This is your actual Firebase config object, with the problematic "measurementId" line removed.
