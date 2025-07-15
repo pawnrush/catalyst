@@ -18,11 +18,11 @@ import Chart from 'chart.js/auto';
 // --- Firebase Configuration ---
 // CRITICAL: Replace this with your actual Firebase config object from your Firebase project.
 const firebaseConfig = {
-  apiKey: "AIzaSyAbj9hbMWxNjqZVDb748WnYO6CulC8Le4g"
-    authDomain: "catalyst-1070a.firebaseapp.com"
-    projectId: "catalyst-1070a"
-    storageBucket: "catalyst-1070a.firebasestorage.app"
-    messagingSenderId: "846726638572"
+  apiKey: "AIzaSyAbj9hbMWxNjqZVDb748WnYO6CulC8Le4g",
+    authDomain: "catalyst-1070a.firebaseapp.com",
+    projectId: "catalyst-1070a",
+    storageBucket: "catalyst-1070a.firebasestorage.app",
+    messagingSenderId: "846726638572",
     appId: "1:846726638572:web:93e287e463c0e4654beec9"
 };
 
