@@ -14,7 +14,6 @@ const firebaseConfig = {
   storageBucket: "atalyst-1070a.firebasestorage.app",
   messagingSenderId: "846726638572",
   appId: "1:846726638572:web:93e287e463c0e4654beec9"
-  measurementId: "G-JMQQBKTLF8"
 };
 
 function App() {
